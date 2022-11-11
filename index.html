@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      input,p{
+         width: 30%;
+         margin: 0 auto;
+         margin-bottom: 30px;
+         display: block;
+         padding: 10px;
+         font-size: 20px;
+      }
+      input[type="submit"]{
+         cursor: pointer;
+         margin-top: 30px;
+      }
+      select{
+         display: block;
+         margin: 0 auto;
+         /* padding: 10px; */
+         font-size: 18px;
+      }
+      h1{
+         text-align: center;
+      }
+      label{
+         text-align: center;
+         display: block;
+         margin-bottom: 10px;
+         font-size: 20px;
+      }
+   </style>
+</head>
+<body>
+   <form action="#">
+      <h1>Vijiner shifrlash</h1>
+      <label>Ochiqmatnni kiriting</label>
+      <input type="text" id="ochiqmatn">
+      <label>Kalitni kiriting</label>
+      <input type="text" id="kalit">
+      <select name="select" id="select">
+         <option value="shifrlash">Shifrlash</option>
+         <option value="deshifrlash">Deshifrlash</option>
+      </select>
+      <input type="submit" value="Hisoblash" id="btn">
+   </form>
+   <p id="result">Natija: </p>
+   <script src="main.js"></script>      
+</body>
+</html>
